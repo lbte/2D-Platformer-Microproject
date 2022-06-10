@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 namespace Platformer.UI
 {
+    /// <summary>
+    /// Class to unload the additive scene
+    /// </summary>
     public class AlienTriggerOff : MonoBehaviour
     {
         [SerializeField] string additiveScene;
